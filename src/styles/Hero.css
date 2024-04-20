@@ -1,0 +1,46 @@
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .temir-img {
+    animation: moveUpDown 2s ease-in-out infinite; 
+    margin: -34px;
+}
+  
+  #hero {
+    background: rgb(136, 136, 136);
+    background: radial-gradient(circle, rgba(136, 136, 136, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    padding: 30px;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .h {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 5rem;
+    color: white;
+    gap: 5pc;
+  }
+ 

@@ -1,0 +1,24 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: slideIn 1s ease forwards;
+  opacity: 0;
+  -webkit-animation: slideIn 1s ease forwards;
+}
+
+.visible {
+  opacity: 1;
+}
